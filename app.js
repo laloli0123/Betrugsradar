@@ -51,7 +51,7 @@ async function checkNumber() {
 
     try {
         const { data, error } = await _supabase
-            .from('fraud_numbers')
+            .from('numbers')
             .select('*')
             .eq('phone', number)
             .maybeSingle();
