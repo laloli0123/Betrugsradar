@@ -1,7 +1,7 @@
 // 1. ربط الاتصال بـ Supabase
 const { createClient } = supabase; // هادي جية من السطر اللي زدتي في HTML
-const supabaseUrl = https://supabase.com/dashboard/project/irfxrvincoaacwpialqp/editor/17450
-const supabaseKey = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlyZnhydmluY29hYWN3cGlhbHFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4MzIzMTYsImV4cCI6MjA4NjQwODMxNn0.o7GlOpeUoSl5aRmkZSKGhglIsYUMxmTEDtMswCJkQac
+const supabaseUrl = https://irfxrvincoaacwpialqp.supabase.co
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlyZnhydmluY29hYWN3cGlhbHFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4MzIzMTYsImV4cCI6MjA4NjQwODMxNn0.o7GlOpeUoSl5aRmkZSKGhglIsYUMxmTEDtMswCJkQac"
 const _supabase = createClient(supabaseUrl, supabaseKey);
 
 // 2. الفانكشن الرئيسية للبحث (Search Logic)
